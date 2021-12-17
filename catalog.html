@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Аврора</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/favicon.png" type="img/">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://use.fontawesome.com/dcf8258c1b.js"></script>
+  <link rel="stylesheet" href="css/cart.css">
+</head>
+
+<body>
+
+<header class="header-page">
+  <div class="container header-page__container">
+    <div class="header-page__start">
+      <div class="logo">
+        <div class="logo-images">
+          <a href="index.html"><img src="img/favicon.ico" alt="Ошибка"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-page__end">
+      <nav class="header-page__nav">
+        <ul class="header-page__ul">
+          <li class="header-page__li">
+            <a href="index.html" class="header-page__link">Главная</a>
+          </li>
+        </ul>
+      </nav>&emsp;&emsp;
+      <div class="phone">
+        <a class="phone-item" href="tel:84991732222">
+          <p class="phone-text">8 (499) 173 22-22<br><span class="phone-subtext">Обратный звонок</span></p>     
+        </a>
+      </div>
+
+      <a class="header-page__link cart-icon cart-icon__mobile" data-popup="popup-cart"><i class="fa fa-shopping-basket" aria-hidden="true"></i>  <span class="js-cart-total-count-items cart__quantity"></span></a>
+    </div>
+  </div>
+</header>
+
+<div class="section" id="yak0">
+<section class="section-catalog">
+<div class="container">
+	<div class="section-header">
+	<div class="section-header__title"><h3>Каталог</h3></div>
+	</div>
+<div class="catalog js-catalog">
+
+<!-- ---------------------------  Товар 1 --------------------------- -->
+
+<div class="catalog__item">
+<div class="product catalog__product js-product" data-product-name="Утюг Sakura" data-product-price="4800" data-product-src="img/catalog/ytug.jpg">
+
+<img class="product__img" src="img/catalog/ytug.jpg">
+
+<div class="product__content">
+<h3 class="product__title">Утюг Sakura</h3>
+<div class="product__description">
+  <p> 3000Вт керамика SA-3054CBL</p>
+</div>
+</div>
+
+<section class="product__footer">
+
+<div class="product__bottom">
+  <div class="product__price">
+    <span class="product__price-value js-product-price-value">8 800</span>
+    <span class="product__currency">₽</span>
+        <br>
+    <span class="old-price">10 200 ₽</span>
+  </div>
+
+  <button class="btn product__btn js-btn-add-to-cart" type="button" data-popup="popup-order">Выбрать</button>
+
+</div>
+</section>
+</div>
+</div>
+
+<!-- --------------------------- /Товар 1 --------------------------- -->
+
+
+<!-- ---------------------------  Товар 2 --------------------------- -->
+
+<div class="catalog__item">
+<div class="product catalog__product js-product" data-product-name="Клей Момент" data-product-price="200" data-product-attribute="30 мг" data-product-src="img/catalog/klei.jpg">
+
+<img class="product__img" src="img/catalog/klei.jpg">
+
+<div class="product__content">
+<h3 class="product__title">Клей Момент</h3>
+
+<div class="product__description">
+  <p> Гель в шоубоксе</p>
+</div>
+</div>
+
+<section class="product__footer">
+
+<div class="product__sizes">
+  <button data-product-attribute-price="200" data-product-attribute-value="30 мг" class="product__size js-btn-product-attribute is-active" type="button">30 мг</button>
+
+  <button data-product-attribute-price="400" data-product-attribute-value="60 мг" class="product__size js-btn-product-attribute" type="button">60 мг</button>
+</div>
+
+<div class="product__bottom">
+
+  <div class="product__price">
+    <span class="product__price-value js-product-price-value">200</span>
+    <span class="product__currency">₽</span>
+  </div>
+
+  <button class="btn product__btn js-btn-add-to-cart" type="button" data-popup="popup-order">Выбрать</button>
+
+</div>
+</section>
+</div>
+</div>
+
+<!-- --------------------------- /Товар 2 --------------------------- -->
+
+<!-- ---------------------------  Товар 3 --------------------------- -->
+
+<div class="catalog__item">
+<div class="product catalog__product js-product" data-product-name="САНФОР Белизна" data-product-price="200" data-product-attribute="200 мл" data-product-src="img/catalog/belizna.jpg">
+
+<img class="product__img" src="img/catalog/belizna.jpg">
+
+<div class="product__content">
+<h3 class="product__title">САНФОР Белизна</h3>
+
+<div class="product__description">
+  <p>Гель 3в1</p>
+</div>
+</div>
+
+<section class="product__footer">
+
+<div class="product__sizes">
+  <button data-product-attribute-price="200" data-product-attribute-value="200 мл" class="product__size js-btn-product-attribute is-active" type="button">200 мл</button>
+
+  <button data-product-attribute-price="500" data-product-attribute-value="600 мл" class="product__size js-btn-product-attribute" type="button">600 мл</button>
+
+  <button data-product-attribute-price="1400" data-product-attribute-value="1 литр" class="product__size js-btn-product-attribute" type="button">1 литр</button>
+</div>
+
+<div class="product__bottom">
+  <div class="product__price">
+    <span class="product__price-value js-product-price-value">200</span>
+    <span class="product__currency">₽</span>
+  </div>
+
+  <button class="btn product__btn js-btn-add-to-cart" type="button" data-popup="popup-order">Выбрать</button>
+</div>
+</section>
+</div>
+</div>
+
+<!-- --------------------------- /Товар 3 --------------------------- -->
+
+<!-- ---------------------------  Товар 4 --------------------------- -->
+
+<div class="catalog__item">
+<div class="product catalog__product js-product" data-product-name="Ночник Camelion зеленый" data-product-price="675" data-product-src="img/catalog/no4nik.jpg">
+
+<img class="product__img" src="img/catalog/no4nik.jpg">
+
+<div class="product__content">
+<h3 class="product__title">Ночник Camelion зеленый</h3>
+<div class="product__description">
+  <p>Ночник Camelion светодиодный с выключателем 194-NL Зеленый 220В</p>
+</div>
+</div>
+
+<section class="product__footer">
+
+<div class="product__bottom">
+  <div class="product__price">
+    <span class="product__price-value js-product-price-value">675 </span>
+    <span class="product__currency">₽</span>
+    <br>
+    <span class="old-price">1000 ₽</span>
+  </div>
+
+  <button class="btn product__btn js-btn-add-to-cart" type="button" data-popup="popup-order">Выбрать</button>
+
+</div>
+</section>
+</div>
+</div>
+
+<!-- --------------------------- /Товар 4 --------------------------- -->
+
+
+<!-- ---------------------------  Товар 5 --------------------------- -->
+
+<div class="catalog__item">
+<div class="product catalog__product js-product" data-product-name="Мыло туалетное SAFEGUARD" data-product-price="120" data-product-attribute="1 шт" data-product-src="img/catalog/milo.jpg">
+
+<img class="product__img" src="img/catalog/milo.jpg">
+
+<div class="product__content">
+<h3 class="product__title">Мыло туалетное SAFEGUARD</h3>
+
+<div class="product__description">
+  <p>Классическое ослепительное Белое</p>
+</div>
+</div>
+
+<section class="product__footer">
+
+<div class="product__sizes">
+  <button data-product-attribute-price="120" data-product-attribute-value="1 шт" class="product__size js-btn-product-attribute is-active" type="button">1 шт</button>
+
+  <button data-product-attribute-price="450" data-product-attribute-value="5 шт" class="product__size js-btn-product-attribute" type="button">5 шт</button>
+</div>
+
+<div class="product__bottom">
+
+  <div class="product__price">
+    <span class="product__price-value js-product-price-value">120</span>
+    <span class="product__currency">₽</span>
+  </div>
+
+  <button class="btn product__btn js-btn-add-to-cart" type="button" data-popup="popup-order">Выбрать</button>
+
+</div>
+</section>
+</div>
+</div>
+
+<!-- --------------------------- /Товар 5 --------------------------- -->
+
+<!-- ---------------------------  Товар 6 --------------------------- -->
+
+<div class="catalog__item">
+<div class="product catalog__product js-product" data-product-name="Ароматический диффузор BAGO Home" data-product-price="150" data-product-attribute="300 мл" data-product-src="img/catalog/diffyzor.jpg">
+
+<img class="product__img" src="img/catalog/diffyzor.jpg">
+
+<div class="product__content">
+<h3 class="product__title">Ароматический диффузор BAGO Home</h3>
+
+<div class="product__description">
+  <p>Ароматический диффузор BAGO Home "Новая земля"</p>
+</div>
+</div>
+
+<section class="product__footer">
+
+<div class="product__sizes">
+  <button data-product-attribute-price="150" data-product-attribute-value="300 мл" class="product__size js-btn-product-attribute is-active" type="button">300 мл</button>
+
+  <button data-product-attribute-price="250" data-product-attribute-value="600 мл" class="product__size js-btn-product-attribute" type="button">600 мл</button>
+
+  <button data-product-attribute-price="420" data-product-attribute-value="800 мл" class="product__size js-btn-product-attribute" type="button">800 мл</button>
+</div>
+
+<div class="product__bottom">
+  <div class="product__price">
+    <span class="product__price-value js-product-price-value">150</span>
+    <span class="product__currency">₽</span>
+  </div>
+
+  <button class="btn product__btn js-btn-add-to-cart" type="button" data-popup="popup-order">Выбрать</button>
+</div>
+</section>
+</div>
+</div>
+
+<!-- --------------------------- /Товар 6 --------------------------- -->
+
+<!-- ---------------------------  Товар 7 --------------------------- -->
+
+<div class="catalog__item">
+<div class="product catalog__product js-product" data-product-name="Ароматический мини-диффузор BAGO Home" data-product-price="275" data-product-src="img/catalog/diffyzor-mini.jpg">
+
+<img class="product__img" src="img/catalog/diffyzor-mini.jpg">
+
+<div class="product__content">
+<h3 class="product__title">Ароматический мини-диффузор BAGO Home</h3>
+<div class="product__description">
+  <p>Ароматический мини-диффузор BAGO Home "Гваяковое дерево"</p>
+</div>
+</div>
+
+<section class="product__footer">
+
+<div class="product__bottom">
+  <div class="product__price">
+    <span class="product__price-value js-product-price-value">275 </span>
+    <span class="product__currency">₽</span>
+    <br>
+    <span class="old-price">420 ₽</span>
+  </div>
+
+  <button class="btn product__btn js-btn-add-to-cart" type="button" data-popup="popup-order">Выбрать</button>
+
+</div>
+</section>
+</div>
+</div>
+
+<!-- --------------------------- /Товар 7 --------------------------- -->
+
+
+</div>
+</div>
+</section>
+</div>
+
+<footer class="footer-page">
+  <div class="container footer-page__container">
+    <div class="footer-page__logo">
+        <div class="logo-images">
+          <a href="index.html"><img src="img/favicon.ico" alt="Ошибка"></a>
+        </div>
+    </div>
+
+  <div class="footer-page__menu"></div>
+    <nav class="footer-page__nav">
+      <ul class="footer-page__ul">
+        <li class="footer-page__li">
+          <a class="footer-page__link" href="index.html">Главная</a>
+        </li>
+        <li class="footer-page__li">
+          <a class="footer-page__link" href="#yak0">Каталог</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="footer-page__socseti">
+          <a href="#" class="socseti">
+            <i class="fa fa-vk" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="socseti">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="socseti">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="socseti">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+    </div>
+
+    <div class="phone">
+      <a class="phone-item" href="tel:84991732222">
+        <p class="phone-text">8 (499) 173 22-22<p class="phone-subtext">Обратный звонок</p></p>     
+      </a>
+    </div>
+  </div>
+  <div class="footer-copyrating">
+    <p>ООО «Дом и ремонт» © Copyright, 2021</p>
+  </div>
+</footer>
+
+<!-- .section-cart popup-cart-->
+
+<div class="popup popup-cart">  
+<div class="popup__wrapper">
+<div class="popup__inner">
+<div class="popup__content-cart">
+
+<button class="menu__btn-close popup-menu__btn-close popup-close"></button>
+
+<section class="section-cart">
+<div class="container"> 
+<h2 class="page-title">Корзина</h2>
+<div class="cart js-cart-wrapper">
+<form class="form cart__form">
+<div class="cart__items js-cart">
+</div>
+<div class="cart__totals">
+<!-- <div>Всего элементов: <span class="js-cart-total-count-items cart__bold"></span></div> -->
+<div>Итого: <span class="cart__bold"><span class="js-cart-total-price"></span> ₽</span></div>
+</div>
+<h3 class="title">Заполните форму</h3>
+<div class="form__main">
+<input class="form__input" type="text" name="Имя" placeholder="Имя" required="">
+<input class="form__input" type="tel" id="phone" name="phone" value="" placeholder="+7 (999) 999-99-99" maxlength="15" required="">
+<input class="form__input" type="text" name="Адрес" placeholder="Адрес" required="">
+<input class="js-cart-total-price-input" type="hidden" name="Общая сумма">
+<select class="form__input" name="оплата">
+<option value="Оплата наличными">Оплата наличными</option>
+<option value="Оплата картой">Оплата картой</option>
+</select>
+<button class="btn form__btn" type="submit">Отправить</button>
+</div>
+</form>
+<div class="cart__empty">
+<p class="cart__info">Нет товаров</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+</div>
+</div>  
+</div>
+</div>
+
+<script src="js/popup.js"></script>
+
+<script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js"></script>
+<script src="js/cart.js"></script>
+
+</div>
+<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
